@@ -1,0 +1,91 @@
+body
+{
+    font-family: 'Baloo Tamma 2', cursive;
+    background-color: white;
+    background-image: url("https://www.nttdata.com/global/en/-/media/nttdataglobal/1_images/technology/technology-d.jpg?h=907&iar=0&w=2800&rev=47471737137046ec8745723aea4eca35");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 95vh;
+
+}
+h1
+{
+    font-size: 100px;
+    color:white;
+    text-align: center;
+    background-image: url(https://wallpapers.com/images/high/multicolor-background-xpmocn0hvcemv2q1.webp);
+    background-size:cover;
+    background-position: center;
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    
+}
+.ip1
+{
+    font-family: 'Baloo Tamma 2', cursive;
+    background-color: white;
+    width: 130px;
+    font-size: 50px;
+    text-align: center;
+    border: 2px solid black;
+    border-radius: 10%;
+    margin-bottom: 5px;
+    position: absolute; visibility: visible; left: 500px; top: 300px;
+}
+.ip2
+{
+    font-family: 'Baloo Tamma 2', cursive;
+    background-color:white;
+    width: 130px;
+    font-size: 50px;
+    text-align: center;
+    border: 2px solid black;
+    border-radius: 10%;
+    position: absolute; visibility: visible; left: 500px; top: 490px;
+}
+.gtype
+{
+    font-family: 'Baloo Tamma 2', cursive;
+    background-color:gold;
+    width: 105px;
+    font-size: 40px;
+    text-align: center;
+    margin-left: 350px;
+    border: 2px solid black;
+    border-radius: 10%;
+    position: absolute; visibility: visible; left: 300px; top: 400px;
+}
+.btn
+{
+    font-family: 'Baloo Tamma 2', cursive;
+    background-color: rgba(247, 3, 3, 0.719);
+    width: 92px;
+    font-size: 40px;
+    text-align: center;
+    margin-left: 350px;
+    border: 2px solid black;
+    border-radius: 10%;
+    cursor:pointer;
+    position: absolute; visibility: visible; left: 440px; top: 400px;
+}
+.btn:hover
+{
+    background-color: rgba(146, 3, 3, 0.829);
+    transition: 0.5s;
+}
+.op
+{
+    font-family: 'Baloo Tamma 2', cursive;
+    background-color:blanchedalmond;
+    width: 80px;
+    font-size: 40px;
+    text-align: center;
+    margin-left: 350px;
+    border: 2px solid black;
+    border-radius: 10%;
+    position: absolute; visibility: visible; left: 550px; top: 400px; z-index: 200;
+}
+section{
+    color: blue;
+}

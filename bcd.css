@@ -1,0 +1,127 @@
+body {
+    background-color: #000;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    color: #fff;
+}
+
+.container {
+    background-color: rgba(255, 255, 255, 0.1);
+    margin: 50px auto;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.2);
+}
+
+h1 {
+    color: #33ccff;
+    text-shadow: 2px 2px 4px #000;
+}
+
+label {
+    font-size: 18px;
+    display: block;
+    margin-top: 10px;
+}
+
+input[type="number"] {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #33ccff;
+    border-radius: 5px;
+    margin-top: 10px;
+    background-color: rgba(255, 255, 255, 0.2);
+    color: #fff;
+}
+
+button {
+    background-color: #33ccff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    margin-top: 20px;
+    cursor: pointer;
+    box-shadow: 2px 2px 4px #000;
+    background-image: url('number.png'); /* Replace 'number.png' with the path to your numeric image */
+    background-size: cover;
+}
+
+button:hover {
+    background-color: #0099cc;
+}
+
+#bcdResult {
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 20px;
+    color: #33ccff;
+    text-shadow: 2px 2px 4px #000;
+}
+body {
+    background-color: #000;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    color: #fff;
+}
+
+.container {
+    background-color: rgba(255, 255, 255, 0.1);
+    margin: 50px auto;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.2);
+}
+
+h1 {
+    color: #33ccff;
+    text-shadow: 2px 2px 4px #000;
+}
+
+label {
+    font-size: 18px;
+    display: block;
+    margin-top: 10px;
+}
+
+input[type="number"] {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #33ccff;
+    border-radius: 5px;
+    margin-top: 10px;
+    background-color: rgba(255, 255, 255, 0.2);
+    color: #fff;
+}
+
+button {
+    background-color: #33ccff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    margin-top: 20px;
+    cursor: pointer;
+    box-shadow: 2px 2px 4px #000;
+    background-image: url('number.png'); /* Replace 'number.png' with the path to your numeric image */
+    background-size: cover;
+}
+
+button:hover {
+    background-color: #0099cc;
+}
+
+#bcdResult {
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 20px;
+    color: #33ccff;
+    text-shadow: 2px 2px 4px #000;
+}
+p{
+  font-family: Arial, Helvetica, sans-serif;
+}

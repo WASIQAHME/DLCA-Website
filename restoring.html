@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="restoring.css">
+</head>
+<body>
+    <div class="calculator">
+        <h1>Restoring Division Algorithm Calculator</h1>
+        <input type="number" id="dividend" placeholder="Dividend">
+        <input type="number" id="divisor" placeholder="Divisor">
+        <button onclick="calculateDivision()">Calculate</button>
+        <div id="result">
+            Quotient: <span id="quotient">-</span><br>
+            Remainder: <span id="remainder">-</span>
+        </div>
+    </div>
+    <p>    Initialize the dividend (D) and divisor (d), as well as the quotient (Q) and remainder (R) registers.
+        Determine the number of bits in the dividend and divisor. The dividend should be in the leftmost bits of the dividend register, and the divisor in the leftmost bits of the divisor register. The other bits should be set to zero initially.
+        <br>
+        Compare the dividend with the divisor.
+        If the dividend is greater than or equal to the divisor, subtract the divisor from the dividend, and set the rightmost bit of the quotient to 1. If the dividend is smaller, set the rightmost bit of the quotient to 0.
+        <br>
+        Shift both the quotient and dividend registers to the left by 1 bit.
+        Repeat steps 3 to 5 for the total number of bits in the registers.
+        After all the bits have been processed, the quotient in the Q register is the result of the division, and the remainder in the R register is the remainder.</p>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/3PLv75cOyDo?si=s9xLU3DzDX1oEe0R" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        
+          <img src="https://static.javatpoint.com/tutorial/coa/images/restoring-division-algorithm-for-unsigned-integer2.png"/>
+          <h3>Restoring Division Algorithm Calculator</h3>
+    <script src="restoring.js"></script>
+</body>
+</html>

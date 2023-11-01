@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Binary Coded Decimal</title>
+    <link rel="stylesheet" type="text/css" href="bcd.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Decimal to BCD Converter</h1>
+        <label for="decimalInput">Enter a decimal number:</label>
+        <input type="number" id="decimalInput">
+        <button onclick="convertToBCD()">Convert</button>
+        <div id="bcdResult">
+        </div>
+    </div>
+    <P>Representation: In BCD, each decimal digit (0-9) is represented using a 4-bit binary code. This means that a BCD digit can be any 4-bit binary number. For example, the decimal digit 3 is represented as 0011 in BCD.</P>
+    <script src="bcd.js"></script>
+</body>
+</html>
